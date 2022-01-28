@@ -1,0 +1,187 @@
+"year","ID","Job_title","training_done(yes-no)","training_done","sponsored training(yes-no)","sponsored training","type training (yes-no)","skills"
+2019,"#1","Growth Hacker","Yes",1,"No",0,"Online course","SEO"
+2019,"#2","Growth Hacker","No",0,,,,
+2019,"#3","Marketing technologist","No",0,,,,
+2019,"#4","Marketing technologist","Yes",1,"No",0,"Online course","SEA"
+2019,"#4","Marketing technologist","Yes",1,"No",0,"Online course","Google AdWords"
+2019,"#5","Marketing technologist","Yes",1,"No",0,"Online course","Python"
+2019,"#5","Marketing technologist","Yes",1,"No",0,"Online course","JavaScript"
+2019,"#6","SEO Specialist","Yes",1,"Yes",1,"Online course","SEO Expert level"
+2019,"#7","Web Analyst","No",0,,,,
+2019,"#8","Digital Marketing Specialist","Yes",1,,,"Internal training","Ux Design basics"
+2019,"#8","Digital Marketing Specialist","Yes",1,,,"Internal training","Design thinking"
+2019,"#9","Social Media Manager","No",0,,,,
+2019,"#10","UX Designer","No",0,,,,
+2019,"#11","Front-End Developer","No",0,,,,
+2019,"#12","Front-End Developer","Yes",1,"Yes",1,"Internal training","Agile project management"
+2019,"#13","Front-End Developer","No",0,,,,
+2019,"#14","Back-End Developer","Yes",1,"Yes",1,"Online course","React"
+2019,"#15","Back-End Developer","No",0,,,,
+2019,"#16","Back-End Developer","No",0,,,,
+2019,"#17","Fullstack Developer","Yes",1,"No",0,"Online course","Flask"
+2019,"#17","Fullstack Developer","Yes",1,"No",0,"Online course","Cloud Computing"
+2019,"#18","Fullstack Developer","Yes",1,"No",0,"Online course","Mobile development basics"
+2019,"#19","Fullstack Developer","No",0,,,,
+2019,"#20","Mobile Developer","Yes",1,"Yes",1,"Internal training","Swift"
+2019,"#20","Mobile Developer","Yes",1,"Yes",1,"Internal training","Kotlin"
+2019,"#21","Mobile Developer","No",0,,,,
+2019,"#22","Mobile Developer","Yes",1,"No",0,"Online course","Data architecture Cloud fonctions"
+2019,"#22","Mobile Developer","Yes",1,"No",0,"Online course","Spark"
+2019,"#23","Data Architect","No",0,,,,
+2019,"#24","Data Architect","No",0,,,,
+2019,"#25","Data Architect","No",0,,,,
+2019,"#26","Data Architect","No",0,,,,
+2019,"#27","Data Architect","No",0,,,,
+2019,"#28","Data Scientist","Yes",1,"Yes",1,"Boothcamp","Data mining"
+2019,"#29","Data Scientist","Yes",1,"No",0,"Onlne course","C"
+2019,"#29","Data Scientist","Yes",1,"No",0,"Onlne course","C++"
+2019,"#30","Data Scientist","No",0,,,,
+2019,"#31","Product Manager","No",0,,,,
+2019,"#32","Product Manager","No",0,,,,
+2019,"#33","Product Manager","No",0,,,,
+2019,"#34","Product Manager","No",0,,,,
+2019,"#35","Product Manager","Yes",1,,,"Online course","Data analyse"
+2019,"#35","Product Manager","Yes",1,,,"Online course","Data vizualisation"
+2019,"#35","Product Manager","Yes",1,,,"Online course","Deep learning"
+2019,"#36","Data Analyst","No",0,,,,
+2019,"#37","Data Analyst","No",0,,,,
+2019,"#38","Data Analyst","No",0,,,,
+2019,"#39","Data Analyst","No",0,,,,
+2019,"#40","Data Analyst","No",0,,,,
+2020,"#1","Growth Hacker","Yes",1,"No",0,"Online course","SEO"
+2020,"#1","Growth Hacker","Yes",1,"No",0,"Online course","SEO tools"
+2020,"#1","Growth Hacker","Yes",1,"No",0,"Online course","keyword analysis"
+2020,"#2","Growth Hacker","No",0,,,,
+2020,"#3","Marketing technologist","Yes",1,"No",0,"Online course","Growth hacking"
+2020,"#3","Marketing technologist","Yes",1,"No",0,"Online course","Scrum methods"
+2020,"#4","Marketing technologist","Yes",1,"Yes",1,"Bootcamp","Growth hacking"
+2020,"#4","Marketing technologist","Yes",1,"Yes",1,"Bootcamp","Growth Analysis"
+2020,"#4","Marketing technologist","Yes",1,"Yes",1,"Bootcamp","Python"
+2020,"#5","Marketing technologist","Yes",1,"No",0,"Online course","Web Scraping"
+2020,"#5","Marketing technologist","Yes",1,"No",0,"Online course","Python"
+2020,"#6","SEO Specialist","Yes",1,"Yes",1,"Internal training, online course","Social media & SEO"
+2020,"#6","SEO Specialist","Yes",1,"Yes",1,"Internal training, online course","SEA"
+2020,"#6","SEO Specialist","Yes",1,"Yes",1,"Internal training, online course","agile project management"
+2020,"#6","SEO Specialist","Yes",1,"Yes",1,"Internal training, online course","prioritization"
+2020,"#7","Web Analyst","Yes",1,"No",0,"Online course","Angular"
+2020,"#7","Web Analyst","Yes",1,"No",0,"Online course","CICD"
+2020,"#7","Web Analyst","Yes",1,"No",0,"Online course","Objective-C"
+2020,"#8","Digital Marketing Specialist","Yes",1,"Yes",1,"Internal training","Ux Design basics"
+2020,"#8","Digital Marketing Specialist","Yes",1,"Yes",1,"Internal training","Design thinking"
+2020,"#9","Social Media Manager","Yes",1,"No",0,"Online course","Bootstrap"
+2020,"#10","UX Designer","No",0,,,,
+2020,"#11","Front-End Developer","No",0,,,,
+2020,"#12","Front-End Developer","Yes",1,"Yes",1,"Online course","Sass"
+2020,"#12","Front-End Developer","Yes",1,"Yes",1,"Online course","Less"
+2020,"#13","Front-End Developer","Yes",1,"Yes",1,"Internal training","React"
+2020,"#13","Front-End Developer","Yes",1,"Yes",1,"Internal training","Svelte"
+2020,"#14","Back-End Developer","Yes",1,"Yes",1,"Bootcamp","React"
+2020,"#14","Back-End Developer","Yes",1,"Yes",1,"Bootcamp","Gulp"
+2020,"#15","Back-End Developer","No",0,,,,
+2020,"#16","Back-End Developer","Yes",1,"No",0,"Online course","Spark"
+2020,"#16","Back-End Developer","Yes",1,"No",0,"Online course","Scala"
+2020,"#16","Back-End Developer","Yes",1,"No",0,"Online course","MapReduce"
+2020,"#16","Back-End Developer","Yes",1,"No",0,"Online course","Pig"
+2020,"#16","Back-End Developer","Yes",1,"No",0,"Online course","Hive"
+2020,"#16","Back-End Developer","Yes",1,"No",0,"Online course","Kafka"
+2020,"#17","Fullstack Developer","No",0,,,,
+2020,"#18","Fullstack Developer","Yes",1,"No",0,"Online course","Ionic"
+2020,"#19","Fullstack Developer","Yes",1,"Yes",1,"Long-term training course (master's degree)","Data Architecture"
+2020,"#20","Mobile Developer","Yes",1,"Yes",1,"Internal training","Agile project management"
+2020,"#21","Mobile Developer","No",0,,,,
+2020,"#22","Mobile Developer","Yes",1,"No",0,"Online course","Airflow"
+2020,"#23","Data Architect","Yes",1,"Yes",1,"Internal training","Agile project management"
+2020,"#24","Data Architect","No",0,,,,
+2020,"#25","Data Architect","No",0,,,,
+2020,"#26","Data Architect","No",0,,,,
+2020,"#27","Data Architect","No",0,,,,
+2020,"#28","Data Scientist","Yes",1,"No",0,"Online course","NLTK"
+2020,"#29","Data Scientist","Yes",1,"Yes",1,"Online course","Cloud Functions"
+2020,"#29","Data Scientist","Yes",1,"Yes",1,"Online course","MapReduce"
+2020,"#29","Data Scientist","Yes",1,"Yes",1,"Online course","C++"
+2020,"#30","Data Scientist","No",0,,,,
+2020,"#31","Product Manager","No",0,,,,
+2020,"#32","Product Manager","No",0,,,,
+2020,"#33","Product Manager","No",0,,,,
+2020,"#34","Product Manager","Yes",1,,,"Online course","Hive"
+2020,"#34","Product Manager","Yes",1,,,"Online course","Pig"
+2020,"#34","Product Manager","Yes",1,,,"Online course","MapReduce"
+2020,"#34","Product Manager","Yes",1,,,"Online course","Scala"
+2020,"#34","Product Manager","Yes",1,,,"Online course","Spark"
+2020,"#35","Product Manager","Yes",1,,,"Online course","Tensorflow"
+2020,"#35","Product Manager","Yes",1,,,"Online course","Pandas"
+2020,"#35","Product Manager","Yes",1,,,"Online course","Scikit Learn"
+2020,"#35","Product Manager","Yes",1,,,"Online course","Applied Mathematics"
+2020,"#36","Data Analyst","No",0,,,,
+2020,"#37","Data Analyst","No",0,,,,
+2020,"#38","Data Analyst","No",0,,,,
+2020,"#39","Data Analyst","No",0,,,,
+2020,"#40","Data Analyst","No",0,,,,
+2021,"#1","Growth Hacker","Yes",1,"Yes",1,"Bootcamp","SEO"
+2021,"#2","Growth Hacker","Yes",1,"Yes",1,"Online course","Agile project management"
+2021,"#3","Marketing technologist","Yes",1,"Yes",1,"Online course","Scrum methods certification"
+2021,"#4","Growth Hacker","Yes",1,"Yes",1,"Online course","JavaScript"
+2021,"#4","Growth Hacker","Yes",1,"Yes",1,"Online course","Python"
+2021,"#5","Marketing technologist","No",0,,,,
+2021,"#6","SEO Specialist","Yes",1,"No",0,"Internal training, online course","Social media SEO"
+2021,"#6","SEO Specialist","Yes",1,"No",0,"Internal training, online course","SEA"
+2021,"#6","SEO Specialist","Yes",1,"No",0,"Internal training, online course","agile project management"
+2021,"#6","SEO Specialist","Yes",1,"No",0,"Internal training, online course","prioritization"
+2021,"#6","SEO Specialist","Yes",1,"No",0,"Internal training, online course","time management"
+2021,"#7","Web Analyst","Yes",1,"No",0,"Online course","CICD"
+2021,"#7","Web Analyst","Yes",1,"No",0,"Online course","Ionic"
+2021,"#7","Web Analyst","Yes",1,"No",0,"Online course","Swift"
+2021,"#8","Digital Marketing Specialist","Yes",1,"No",0,"Online course","Adobe XD"
+2021,"#9","Social Media Manager","Yes",1,"No",0,"Online course","Web developpement basics : Angular"
+2021,"#9","Social Media Manager","Yes",1,"No",0,"Online course","JQuery"
+2021,"#10","UX Designer","No",0,,,,
+2021,"#11","Front-End Developer","Yes",1,"No",0,"Online course","CICD"
+2021,"#11","Front-End Developer","Yes",1,"No",0,"Online course","CapacitorJs"
+2021,"#11","Front-End Developer","Yes",1,"No",0,"Online course","Kotlin"
+2021,"#11","Front-End Developer","Yes",1,"No",0,"Online course","Ionic"
+2021,"#12","Front-End Developer","No",0,,,,
+2021,"#13","Front-End Developer","No",0,,,,
+2021,"#14","Back-End Developer","Yes",1,"No",0,"Online course","Tailwind"
+2021,"#15","Back-End Developer","Yes",1,,,"Internal Training","Scrum methods certification"
+2021,"#16","Back-End Developer","No",0,,,,
+2021,"#17","Fullstack Developer","Yes",1,"No",0,"Online course","Agile project management"
+2021,"#18","Fullstack Developer","Yes",1,"Yes",1,"Online course","Ionic"
+2021,"#18","Fullstack Developer","Yes",1,"Yes",1,"Online course","Swift"
+2021,"#18","Fullstack Developer","Yes",1,"Yes",1,"Online course","Capacitor JS"
+2021,"#19","Data Architect","No",0,,,,
+2021,"#20","Mobile Developer","No",0,,,,
+2021,"#21","Mobile Developer","Yes",1,"No",0,"Online course","Data presentation"
+2021,"#21","Mobile Developer","Yes",1,"No",0,"Online course","data mining"
+2021,"#21","Mobile Developer","Yes",1,"No",0,"Online course","Python"
+2021,"#22","Mobile Developer","No",0,"No",0,,
+2021,"#23","Data Architect","No",0,,,,
+2021,"#24","Data Architect","Yes",1,"Yes",,"Online course","Tensorflow"
+2021,"#24","Data Architect","Yes",1,"Yes",,"Online course","Scikit Learn"
+2021,"#24","Data Architect","Yes",1,"Yes",,"Online course","Pandas"
+2021,"#24","Data Architect","Yes",1,"Yes",,"Online course","Pytorch"
+2021,"#25","Data Architect","No",0,,,,
+2021,"#26","Data Architect","No",0,,,,
+2021,"#27","Data Architect","No",0,,,,
+2021,"#28","Data Scientist","No",0,,,,
+2021,"#29","Data Scientist","Yes",1,"Yes",1,"Onlne course","Scala"
+2021,"#29","Data Scientist","Yes",1,"Yes",1,"Onlne course","Spark"
+2021,"#29","Data Scientist","Yes",1,"Yes",1,"Onlne course","Operating Systems"
+2021,"#29","Data Scientist","Yes",1,"Yes",1,"Onlne course","Cloud Functions"
+2021,"#30","Data Scientist","Yes",1,,,"Online course","Data mining"
+2021,"#30","Data Scientist","Yes",1,,,"Online course","Numpy"
+2021,"#31","Product Manager","No",0,,,,
+2021,"#32","Product Manager","No",0,,,,
+2021,"#33","Product Manager","No",0,,,,
+2021,"#34","Data Architect","No",0,,,,
+2021,"#35","Data Analyst","No",0,,,,
+2021,"#36","Data Analyst","No",0,,,,
+2021,"#37","Data Analyst","Yes",1,,,"Internal Training","Scala"
+2021,"#37","Data Analyst","Yes",1,,,"Internal Training","Spark"
+2021,"#37","Data Analyst","Yes",1,,,"Internal Training","Operating Systems"
+2021,"#37","Data Analyst","Yes",1,,,"Internal Training","Cloud Functions"
+2021,"#38","Data Analyst","Yes",1,,,"Internal Training","Scrum methods certification"
+2021,"#39","Data Analyst","Yes",1,,,"Internal Training","Scala"
+2021,"#39","Data Analyst","Yes",1,,,"Internal Training","Spark"
+2021,"#39","Data Analyst","Yes",1,,,"Internal Training","Operating Systems"
+2021,"#39","Data Analyst","Yes",1,,,"Internal Training","Cloud Functions"
+2021,"#40","Data Analyst","No",0,,,,
