@@ -125,10 +125,16 @@ layout = html.Div([
                                 ),
 
                         html.Div(id='page-1-content'),
-                        html.Br(),
-                        dcc.Link('Go to Page 2', href='/page-2'),
-                        html.Br(),
-                        dcc.Link('Home page', href='/'),
+
+                        html.Div(
+                            dcc.Link(
+                                    dbc.Button('Home',
+                                    id='home',
+                                    color = 'Blue',
+                                    style = {'margin':"25px",'border':'2px solid #C8D4E3', 'border-radius': '12px',
+                                    'background' : '#f2f5fa', 'color' : 'black', 'font-size': '24px',
+                                    'width': '200px'}), href='/home')
+                                    , className='d-flex justify-content-center')
 ])
 
 

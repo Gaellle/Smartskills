@@ -22,7 +22,7 @@ layout = html.Div(
         dbc.Col([
             
             html.Div([   
-                html.Img(src="https://static.wixstatic.com/media/c36c76_4d26ae83942b46c79e0e3919b818760e~mv2.png/v1/fill/w_1000,h_685,al_c,usm_0.66_1.00_0.01/c36c76_4d26ae83942b46c79e0e3919b818760e~mv2.png", className="logo"),
+                html.Img(src="https://yt3.ggpht.com/C4VnK2-PRneKt6fUVAKJL8CIDUJtvjRwQV-rsYa7iPsv3UVJ2qwXJMWQyhS7H6ZDq8QefqLZQ2E=s900-c-k-c0x00ffffff-no-rj", className="logo-smartskills"),
             ])
                            
         ], lg=3, md=12, sm=12 ),      
@@ -31,7 +31,7 @@ layout = html.Div(
         dbc.Col([
             html.Div([
                     html.Br(),
-                    html.H1("Projet SMART SKILLS", className="main-title"),
+                    html.H1("SMART SKILLS", className="main-title"),
                     ], className="title-div"),
 
             dbc.Row([
@@ -88,6 +88,8 @@ layout = html.Div(
                     dbc.Container( [
                                     html.H2('Charlotte'),
                                     html.Br(),
+                                    html.Div([   
+                                        html.Img(src="https://media-exp1.licdn.com/dms/image/C5635AQHHoS1IYk8pdA/profile-framedphoto-shrink_200_200/0/1613985274363?e=1643810400&v=beta&t=WdbiPtoUTFyPWbrauGlmCKYJU2YUbNHW_BRjxpyE6wc", className="photo_id")],className='d-grid gap-2 d-flex justify-content-center')
                                     ],
                                     className='box', style={'padding':'20px','width' : '200px','height' :'150 px'})
                                     ], lg = 3),
@@ -96,6 +98,8 @@ layout = html.Div(
                     dbc.Container( [
                                     html.H2('Ghizlaine'),
                                     html.Br(),
+                                    html.Div([   
+                                        html.Img(src="https://tr.rbxcdn.com/eaca0d8465e6ada06d1e9c86fb885d2d/420/420/Image/Png", className="photo_id")],className='d-grid gap-2 d-flex justify-content-center')
                                     ],
                                     className='box', style={'padding':'20px','width' : '200px','height' :'150 px'})
                                     ], lg = 3),
@@ -105,6 +109,8 @@ layout = html.Div(
                     dbc.Container( [
                                     html.H2('Lucile'),
                                     html.Br(),
+                                    html.Div([   
+                                        html.Img(src="/assets/lucile.jpg", className="photo_id")],className='d-grid gap-2 d-flex justify-content-center')
                                     ],
                                     className='box', style={'padding':'20px','width' : '200px','height' :'150 px'})
                                     ], lg = 3)                    
@@ -115,6 +121,8 @@ layout = html.Div(
                     dbc.Container( [
                                     html.H2('Maxime'),
                                     html.Br(),
+                                    html.Div([   
+                                        html.Img(src="/assets/maxime.png", className="photo_id")],className='d-grid gap-2 d-flex justify-content-center')
                                     ],
                                     className='box', style={'padding':'20px','width' : '200px','height' :'150 px'})
                                     ], lg = 3),

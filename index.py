@@ -30,7 +30,7 @@ def display_page(pathname):
         return survey.layout
     elif pathname == '/overview':
         return overview.layout
-    elif pathname == '/apps/details':
+    elif pathname == '/details':
         return details.layout
     else:
         return home.layout
