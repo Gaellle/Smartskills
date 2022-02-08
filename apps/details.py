@@ -119,51 +119,50 @@ layout = html.Div(
 
     ###ENCART JOB TITLE###
         dbc.Row([
+            html.H1("JOB TITLE", className="main-title",  style={'margin-left':'120px'}),
+            html.P(),
+            
+            
             dbc.Col([
                 html.Div([
 
+                        html.Div([
 
-                html.Img(src="https://th.bing.com/th/id/OIP.xA-dGZm-vu9fZz-wvMU-VgHaEK?pid=ImgDet&w=1200&h=675&rs=1",className="logo1"),
-                html.H1("JOB TITLE", className="main-title"),
+                        html.P('Select a year', className='form-text', style={'color':'#1CEDB7'}),
+                        dcc.RadioItems(
+                            id='year-RI-p3c1',
+                            options=[{'label': k, 'value': v} for k, v in skill_year_options.items()],
+                            value=2021,
+                            className='candidates-dropdown',style={'color':'#1CEDB7'}
+                        ),
+                        html.P('Select a field', className='form-text',style={'color':'#1CEDB7'}),
+                        dcc.Dropdown(
+                            id='field-dpdn-p3c1',
+                            options=[{'label': k, 'value': k} for k in skill_options.keys()],
+                            value='Data Science et data analyse',
+                            className='candidates-dropdown',
 
+                        ),
+                        html.P('Select a job title :', className='form-text', style={'color':'#1CEDB7'}),
+                        dcc.Dropdown(
+                            id='job-dpdn-p3c1',
+                            options=[{'label': k, 'value': v} for k, v in sorted(job_options.items())],
+                            value='Data Analyst',
+                            multi=False,
+                            clearable=False,
+                            className='candidates-dropdown',
 
-                html.Div([
-
-                html.P('Select a year', className='form-text', style={'color':'#1CEDB7'}),
-                dcc.RadioItems(
-                    id='year-RI-p3c1',
-                    options=[{'label': k, 'value': v} for k, v in skill_year_options.items()],
-                    value=2021,
-                    className='candidates-dropdown',style={'color':'#1CEDB7'}
-                ),
-                html.P('Select a field', className='form-text',style={'color':'#1CEDB7'}),
-                dcc.Dropdown(
-                    id='field-dpdn-p3c1',
-                    options=[{'label': k, 'value': k} for k in skill_options.keys()],
-                    value='Data Science et data analyse',
-                    className='candidates-dropdown',
-
-                ),
-                html.P('Select a job title :', className='form-text', style={'color':'#1CEDB7'}),
-                dcc.Dropdown(
-                    id='job-dpdn-p3c1',
-                    options=[{'label': k, 'value': v} for k, v in sorted(job_options.items())],
-                    value='Data Analyst',
-                    multi=False,
-                    clearable=False,
-                    className='candidates-dropdown',
-
-                ),
-                html.P('Select a skill  :', className='form-text', style={'color':'#1CEDB7'}),
-                dcc.Dropdown(id='skills-dpdn-p3c1',
-                #disabled=False,
-                #placeholder='select skills',
-                #searchable=True,
-                style={'backgroundColor': '#1CEDB7','color': 'blue'}
-                ),
+                        ),
+                        html.P('Select a skill  :', className='form-text', style={'color':'#1CEDB7'}),
+                        dcc.Dropdown(id='skills-dpdn-p3c1',
+                        #disabled=False,
+                        #placeholder='select skills',
+                        #searchable=True,
+                        style={'backgroundColor': '#1CEDB7','color': 'blue'}
+                        ),
 
 
-    ])#div
+            ])#div
     ],className='form-container')#div
     ], lg=2,md=12, sm=12 ),#col
 
@@ -172,6 +171,7 @@ layout = html.Div(
 
         dbc.Col([
             html.Div([
+                
                 dbc.Container(
         dcc.Graph(id='chart p3c1',figure={},className='graph-details', config={'displayModeBar': False}),
                  className='box-overview', style={'margin-left': '20px', 'padding-top':'10px', 'padding-bottom':'10px', 'height' :'80vh', 'width' : '40vw'}),
@@ -189,40 +189,39 @@ layout = html.Div(
 
     ###ENCART employees###
     dbc.Row([
+        html.P(),
+        html.H1("EMPLOYEES", className="main-title",  style={'margin-left':'120px'}),
+        html.P(),
+
         dbc.Col([
             html.Div([
 
-
-            html.Img(src="https://fotomelia.com/wp-content/uploads/2016/04/images-gratuites-creative-commons-cco-7-1560x1560.jpg",className="logo1"),
-            html.H1("EMPLOYEES", className="main-title"),
+                    html.Div([
 
 
-            html.Div([
+                    html.P('Select a field', className='form-text',style={'color':'#1CEDB7'}),
+                    dcc.Dropdown(
+                        id='field-dpdn-p3c3',
+                        options=[{'label': k, 'value': k} for k in skill_options.keys()],
+                        value='Data Science et data analyse',
+                        className='candidates-dropdown',
 
 
-            html.P('Select a field', className='form-text',style={'color':'#1CEDB7'}),
-            dcc.Dropdown(
-                id='field-dpdn-p3c3',
-                options=[{'label': k, 'value': k} for k in skill_options.keys()],
-                value='Data Science et data analyse',
-                className='candidates-dropdown',
+                    ),
+                    html.P('Select skill as filter :', className='form-text', style={'color':'#1CEDB7'}),
+                    dcc.Dropdown(id='skills-dpdn-p3c3',
+                    ),
 
+
+                    html.P("ID:", style={'color':'#1CEDB7'}),
+                    dcc.Dropdown(id='ID-dpdn-p3c3',
+                        options=[{'label': k, 'value': v} for k,v in sorted(ID_options.items())],
+                        value='#1',
+                        clearable=False,
+                        multi=False,
 
             ),
-            html.P('Select skill as filter :', className='form-text', style={'color':'#1CEDB7'}),
-            dcc.Dropdown(id='skills-dpdn-p3c3',
-            ),
-
-
-            html.P("ID:", style={'color':'#1CEDB7'}),
-            dcc.Dropdown(id='ID-dpdn-p3c3',
-                options=[{'label': k, 'value': v} for k,v in sorted(ID_options.items())],
-                value='#1',
-                clearable=False,
-                multi=False,
-
-    ),
-    ])#div
+            ])#div
     ],className='form-container')#div
     ], lg=2,md=12, sm=12 ),#col
 
@@ -249,46 +248,45 @@ layout = html.Div(
 
     ###ENCART Global view###
     dbc.Row([
+        html.P(),
+        html.H1("GLOBAL VIEW EMPLOYEES", className="main-title",  style={'margin-left':'120px'}),
+        html.P(),
+
         dbc.Col([
             html.Div([
 
+                    html.Div([
 
-            html.Img(src="https://www.imprim-deco.fr/6620-full_default/sticker-autocollant-longue-vue.jpg",className="logo1"),
-            html.H1("GLOBAL VIEW EMPLOYEES", className="main-title"),
+                    html.P('Select a year', className='form-text', style={'color':'#1CEDB7'}),
+                    dcc.RadioItems(
+                        id='year-RI-p3c5',
+                        options=[{'label': k, 'value': v} for k, v in skill_year_options.items()],
+                        value='All',
+                        className='candidates-dropdown',style={'color':'#1CEDB7'},
 
-
-            html.Div([
-
-            html.P('Select a year', className='form-text', style={'color':'#1CEDB7'}),
-            dcc.RadioItems(
-                id='year-RI-p3c5',
-                options=[{'label': k, 'value': v} for k, v in skill_year_options.items()],
-                value='All',
-                className='candidates-dropdown',style={'color':'#1CEDB7'},
-
-            ),
+                    ),
 
 
-            html.P("select Level/Interest level or Gap:", style={'color':'#1CEDB7'}),
-            dcc.Dropdown(id='color-dpdn-p3c5',
-                options=[
-                        {'label': 'Level', 'value': 'Level'},
-                        {'label': 'Interest level', 'value': 'Interest level'},
-                        {'label': 'gap', 'value': 'gap', },],
-                        value='Level',
+                    html.P("select Level/Interest level or Gap:", style={'color':'#1CEDB7'}),
+                    dcc.Dropdown(id='color-dpdn-p3c5',
+                        options=[
+                                {'label': 'Level', 'value': 'Level'},
+                                {'label': 'Interest level', 'value': 'Interest level'},
+                                {'label': 'gap', 'value': 'gap', },],
+                                value='Level',
 
-            ),
+                    ),
 
-            html.P('Select job title as filter :', className='form-text', style={'color':'#1CEDB7'}),
-            dcc.Dropdown(
-                id='job-dpdn-p3c7',
-                options=[{'label': k, 'value': v} for k, v in sorted(job_options.items())],
-                value='All',
-                multi=False,
-                clearable=False,
-                className='candidates-dropdown',
-                        ),
-    ])#div
+                    html.P('Select job title as filter :', className='form-text', style={'color':'#1CEDB7'}),
+                    dcc.Dropdown(
+                        id='job-dpdn-p3c7',
+                        options=[{'label': k, 'value': v} for k, v in sorted(job_options.items())],
+                        value='All',
+                        multi=False,
+                        clearable=False,
+                        className='candidates-dropdown',
+                                ),
+            ])#div
     ],className='form-container')#div
     ], lg=2,md=12, sm=12 ),#col
 
@@ -309,54 +307,53 @@ layout = html.Div(
 
     ###ENCART Global view###BIS
     dbc.Row([
+        html.P(),
+        html.H1("GLOBAL VIEW SKILLS", className="main-title",  style={'margin-left':'120px'}),
+        html.P(),
+
         dbc.Col([
             html.Div([
 
+                    html.Div([
 
-            html.Img(src="https://www.imprim-deco.fr/6620-full_default/sticker-autocollant-longue-vue.jpg",className="logo1"),
-            html.H1("GLOBAL VIEW SKILLS", className="main-title"),
+                    html.P('Select a year', className='form-text', style={'color':'#1CEDB7'}),
+                    dcc.RadioItems(
+                        id='year-RI-p3c6',
+                        options=[{'label': k, 'value': v} for k, v in skill_year_options.items()],
+                        value='All',
+                        className='candidates-dropdown',style={'color':'#1CEDB7'},
 
+                    ),
+                    html.P('Select a field', className='form-text',style={'color':'#1CEDB7'}),
+                    dcc.Dropdown(
+                        id='field-dpdn-p3c6',
+                        options=[{'label': k, 'value': v} for k, v in sorted(field_options.items())],
+                        value='All',
+                        className='candidates-dropdown',
 
-            html.Div([
+                    ),
+                    html.P('Select job title as filter :', className='form-text', style={'color':'#1CEDB7'}),
+                    dcc.Dropdown(
+                        id='job-dpdn-p3c6',
+                        options=[{'label': k, 'value': v} for k, v in sorted(job_options.items())],
+                        value='All',
+                        multi=False,
+                        clearable=False,
+                        className='candidates-dropdown',
 
-            html.P('Select a year', className='form-text', style={'color':'#1CEDB7'}),
-            dcc.RadioItems(
-                id='year-RI-p3c6',
-                options=[{'label': k, 'value': v} for k, v in skill_year_options.items()],
-                value='All',
-                className='candidates-dropdown',style={'color':'#1CEDB7'},
+                    ),
 
-            ),
-            html.P('Select a field', className='form-text',style={'color':'#1CEDB7'}),
-            dcc.Dropdown(
-                id='field-dpdn-p3c6',
-                options=[{'label': k, 'value': v} for k, v in sorted(field_options.items())],
-                value='All',
-                className='candidates-dropdown',
+                    html.P("select Level/Interest level or Gap:", style={'color':'#1CEDB7'}),
+                    dcc.Dropdown(id='color-dpdn-p3c6',
+                        options=[
+                                {'label': 'Level', 'value': 'Level'},
+                                {'label': 'Interest level', 'value': 'Interest level'},
+                                {'label': 'gap', 'value': 'gap', },],
+                                value='Level',
 
-            ),
-            html.P('Select job title as filter :', className='form-text', style={'color':'#1CEDB7'}),
-            dcc.Dropdown(
-                id='job-dpdn-p3c6',
-                options=[{'label': k, 'value': v} for k, v in sorted(job_options.items())],
-                value='All',
-                multi=False,
-                clearable=False,
-                className='candidates-dropdown',
+                    ),
 
-            ),
-
-            html.P("select Level/Interest level or Gap:", style={'color':'#1CEDB7'}),
-            dcc.Dropdown(id='color-dpdn-p3c6',
-                options=[
-                        {'label': 'Level', 'value': 'Level'},
-                        {'label': 'Interest level', 'value': 'Interest level'},
-                        {'label': 'gap', 'value': 'gap', },],
-                        value='Level',
-
-            ),
-
-    ])#div
+            ])#div
     ],className='form-container')#div
     ], lg=2,md=12, sm=12 ),#col
 
@@ -377,42 +374,41 @@ layout = html.Div(
 
     ###ENCART TRAINING###
     dbc.Row([
+        html.P(),
+        html.H1("TRAININGS", className="main-title",  style={'margin-left':'120px'}),
+        html.P(),
+        
         dbc.Col([
             html.Div([
 
+                    html.Div([
 
-            html.Img(src="https://webstockreview.net/images/clipart-telephone-telephone-skill-6.png",className="logo1"),
-            html.H1("TRAININGS", className="main-title"),
+                    html.P('Select a year', className='form-text', style={'color':'#1CEDB7'}),
+                    dcc.RadioItems(
+                        id='year-RI-p3c7',
+                        options=[{'label': k, 'value': v} for k, v in skill_year_options.items()],
+                        value='All',
+                        className='candidates-dropdown',style={'color':'#1CEDB7'},
+
+                    ),
 
 
-            html.Div([
-
-            html.P('Select a year', className='form-text', style={'color':'#1CEDB7'}),
-            dcc.RadioItems(
-                id='year-RI-p3c7',
-                options=[{'label': k, 'value': v} for k, v in skill_year_options.items()],
-                value='All',
-                className='candidates-dropdown',style={'color':'#1CEDB7'},
+                    html.P("ID:", style={'color':'#1CEDB7'}),
+                    dcc.Dropdown(id='ID-dpdn-p3c7',
+                        options=[{'label': k, 'value': v} for k,v in sorted(ID_options.items())],
+                        value='Deep learning',
+                        clearable=False,
+                        multi=False,
 
             ),
+                    html.P('Smart Skills Sponsoring', className='form-text',
+                        style={'color':'#1CEDB7'}),
+                    dcc.Dropdown(
+                        id='sponsor-dpdn-p3c7',
+                        options=[{'label': k, 'value': v} for k, v in sorted(sponsor_options.items())],
+                        value='All'),
 
-
-            html.P("ID:", style={'color':'#1CEDB7'}),
-            dcc.Dropdown(id='ID-dpdn-p3c7',
-                options=[{'label': k, 'value': v} for k,v in sorted(ID_options.items())],
-                value='Deep learning',
-                clearable=False,
-                multi=False,
-
-    ),
-            html.P('Smart Skills Sponsoring', className='form-text',
-                style={'color':'#1CEDB7'}),
-            dcc.Dropdown(
-                id='sponsor-dpdn-p3c7',
-                options=[{'label': k, 'value': v} for k, v in sorted(sponsor_options.items())],
-                value='All'),
-
-    ])#div
+            ])#div
     ],className='form-container')#div
     ], lg=2,md=12, sm=12 ),#col
 
@@ -638,7 +634,7 @@ def update_global_treemap_ID (selected_year,selected_color,selected_job):
 
 
     fig5.update_layout(
-    title={'text':f"GLOBAL VIEW OF {selected_color.upper()} FOR EMPLOYEES ",
+    title={'text':f"{selected_color.upper()}",
         'x':0.5},
     title_font_family="Arial",
     title_font_color="#1CEDB7",
@@ -682,7 +678,7 @@ def update_global_treemap_skills(selected_year,selected_job,selected_field,selec
 
     fig6 = px.treemap(skill_df6, path=['skills',selected_color,'ID'],color=(selected_color),height=600,color_discrete_sequence= px.colors.sequential.Agsunset)
     fig6.update_layout(
-          title={'text':f"GLOBAL VIEW OF {selected_color.upper()} FOR SKILLS",
+          title={'text':f"{selected_color.upper()}",
               'x':0.5},
           title_font_family="Arial",
           title_font_color="#1CEDB7",
