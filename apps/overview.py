@@ -171,7 +171,7 @@ dbc.Col([
     dbc.Container([
 
                                 dcc.Graph(id='chart p1c4',className='graph-overview', config={'displayModeBar': False}),
-                                ],className='box-overview', style={'margin-right' : '20px','padding-top':'25px', 'padding-bottom':'10px','height' :'80vh', 'width' : '37vw'}
+                                ],className='box-overview', style={'padding-top':'25px', 'padding-bottom':'10px','height' :'80vh', 'width' : '37vw'}
                                 ),
                             ])
                         ]),
@@ -275,7 +275,7 @@ dbc.Row([
                                 ),
 
                             ], className='box-overview',
-                            style={'margin-left': '20px', 'padding':'25px', 'height' :'140vh', 'width' : '80vw'}),
+                            style={'margin-left': '20px', 'padding':'25px', 'height' :'130vh', 'width' : '80vw'}),
                     ]),
 
                 ]),

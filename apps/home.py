@@ -79,7 +79,7 @@ layout = html.Div(
             
             html.Div([
                     html.Br(),
-                    html.H1("DREAM TEAM", className="main-title"),
+                    html.H1("OUR TEAM", className="main-title"),
                     ], className="title-div"),
 
             
@@ -89,7 +89,7 @@ layout = html.Div(
                                     html.H2('Charlotte'),
                                     html.Br(),
                                     html.Div([   
-                                        html.Img(src="https://media-exp1.licdn.com/dms/image/C5635AQHHoS1IYk8pdA/profile-framedphoto-shrink_200_200/0/1613985274363?e=1643810400&v=beta&t=WdbiPtoUTFyPWbrauGlmCKYJU2YUbNHW_BRjxpyE6wc", className="photo_id")],className='d-grid gap-2 d-flex justify-content-center')
+                                        html.Img(src="/assets/charlotte.JPG", className="photo_id")],className='d-grid gap-2 d-flex justify-content-center')
                                     ],
                                     className='box', style={'padding':'20px','width' : '200px','height' :'150 px'})
                                     ], lg = 3),
@@ -99,7 +99,7 @@ layout = html.Div(
                                     html.H2('Ghizlaine'),
                                     html.Br(),
                                     html.Div([   
-                                        html.Img(src="https://tr.rbxcdn.com/eaca0d8465e6ada06d1e9c86fb885d2d/420/420/Image/Png", className="photo_id")],className='d-grid gap-2 d-flex justify-content-center')
+                                        html.Img(src="/assets/ghizlaine.jpg", className="photo_id")],className='d-grid gap-2 d-flex justify-content-center')
                                     ],
                                     className='box', style={'padding':'20px','width' : '200px','height' :'150 px'})
                                     ], lg = 3),

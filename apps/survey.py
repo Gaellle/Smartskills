@@ -311,7 +311,7 @@ def update_barplot(devtype, techno) :
     fig.update_traces(textinfo='label',text="WorkedWith")
     fig.update_yaxes(visible=False)
 
-    fig.update_layout(title_text="Technologies most used",
+    fig.update_layout(title_text=f"Technologies most used by {devtype}",
                     title_x=0.5,
                     yaxis_title= None,
                     paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)',

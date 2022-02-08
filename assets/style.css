@@ -46,6 +46,13 @@ body {
 .graph-overview {
     width: 100%;
     height: 60vh;
+    background-
+    color: #0d2c4b;
+}
+
+.graph-details {
+    width: 100%;
+    height: 60vh;
     background-color: #0d2c4b;
 }
 
