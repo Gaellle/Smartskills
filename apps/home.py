@@ -48,7 +48,7 @@ layout = html.Div(
                                                             href='/overview'),
 
                                     dcc.Link(
-                                        dbc.Button('Detailed datas',
+                                        dbc.Button('Detailed data',
                                         id='insight', 
                                         color = 'Blue',
                                         style = {'margin':"25px",'border':'2px solid rgb(104, 96, 165)', 'border-radius': '12px',
