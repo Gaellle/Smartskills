@@ -68,12 +68,12 @@ layout = html.Div([
                                                         
                                                         html.P(id="output"),
                                                         ],
-                                                        className='box', style={'padding-top':'25px', 'padding-bottom':'10px','width' : '850px'}
+                                                        className='box', style={'padding-top':'25px', 'padding-bottom':'10px','width' : '80vw'}
                                                     ),
 
                                         dbc.Container(                                      
                                                     dcc.Graph(id='barplot', className='top-graph', config={'displayModeBar': False}) ,
-                                                    className='box', style={'padding-top':'25px', 'padding-bottom':'10px','width' : '850px','height' :'200 px'}
+                                                    className='box', style={'padding-top':'25px', 'padding-bottom':'10px','width' : '80vw','height' :'80vh'}
                                                     )
                                         
                                         ], className='d-grid gap-2 d-flex justify-content-center'),
@@ -85,12 +85,12 @@ layout = html.Div([
                                             # emplacement du graph sur ma page
                                             dbc.Container(
                                             dcc.Graph(id='pieplot',className='graph', config={'displayModeBar': False}),
-                                                    className='box', style={'margin-left': '120px', 'padding-top':'25px', 'padding-bottom':'10px','width' : '550px', 'height' :'600 px'}
+                                                    className='box', style={'margin-left': '60px','margin-right': '60px','padding-top':'25px', 'padding-bottom':'10px','width' : '30 vw', 'height' :'80 vh'}
                                                     ),
 
                                             dbc.Container(
                                             dcc.Graph(id='boxplot', config={'displayModeBar': False}, className='graph'),
-                                                    className='box', style={'margin-left': '120px', 'padding-top':'25px', 'padding-bottom':'10px','width' : '550px','height' :'600 px'}
+                                                    className='box', style={'margin-left': '60px','margin-right': '60px', 'padding-top':'25px', 'padding-bottom':'10px','width' : '30 vw','height' :'80 vh'}
                                                     ),
                                             
                                         ], lg=6, md=12, sm=12),
@@ -98,12 +98,12 @@ layout = html.Div([
                                         dbc.Col([
                                             dbc.Container(
                                                 dcc.Graph(id='histplot', className='graph', config={'displayModeBar': False}),
-                                                className='box', style={'margin-right': '100px', 'padding-top':'25px', 'padding-bottom':'10px','width' : '550px','height' :'600 px'} ),
+                                                className='box', style={'margin-right': '120px','margin-left': '60px', 'padding-top':'25px', 'padding-bottom':'10px','width' : '30 vw', 'height' :'80 vh'} ),
                                             
 
                                             dbc.Container(
                                                     dcc.Graph(id='ageplot', className='graph', config={'displayModeBar': False}),
-                                                    className='box', style={'margin-right': '100px', 'padding-top':'25px', 'padding-bottom':'10px','width' : '550px','height' :'600 px'}
+                                                    className='box', style={'margin-right': '120px','margin-left': '60px', 'padding-top':'25px', 'padding-bottom':'10px','width' : '30 vw', 'height' :'80 vh'}
                                                     ),
 
 
@@ -120,7 +120,7 @@ layout = html.Div([
                                     ]),
 
 
-                                ], lg=12, md=12, sm=12)         
+                                ], lg=12, md=12, sm=12, align="center")         
 
                                 ),
 
