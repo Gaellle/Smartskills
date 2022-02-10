@@ -30,7 +30,7 @@ layout = html.Div([
                             html.Div(
                                     
                                 dbc.Col([
-                                    html.H1('General Overview'),
+                                    html.H1('Developer Experience Survey'),
                                     html.Br(),
 
                                     dbc.Row([
